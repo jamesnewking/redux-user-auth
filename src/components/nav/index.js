@@ -34,7 +34,7 @@ class Nav extends Component {
                     <NavLink className="nav-link" to = "/movie-quote">Movie Quote</NavLink>
                 </li>
                 <li className="nav-item">
-                    {this.renderAuthButton()}
+                    <NavLink className="nav-link" to = "/sign-up">Sign Up</NavLink>
                 </li>
             </NavContainer>
         );
